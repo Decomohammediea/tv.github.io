@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Barre de navigation */ 
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    top: 1px;
+    background-color: #ff7200;
+    position: sticky;
+    width: 1560px;
+    height: 60px;
+    margin: auto;
+    color: #fff
+  
+
+
+}
+nav h1 {font-size: 20px;
+  color: #fff}
+  nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-right: 80px
+
+  }
+nav .onglets input{
+  margin: 13px 10px;
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #f2f2f2;
+
+}
+/*fin de barre de navication*/
+/*header*/
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h1{
+  font-size: 60px;
+  text-align: center;
+  
+}
+header button{
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px ;
+  cursor: pointer;
+
+}
+/*fin header*/
+/* section principale */
+
+
+.main{
+  margin: 10px;
+  margin-top: 50px;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+/* tout les cards */
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+}
+.cards .card{
+  margin-left: 50px;
+  cursor: pointer;
+ 
+  
+}
+.cards .card img  {
+  width: 450px;
+  height: 400px;
+  
+
+}
+.cards .card .card-header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  space-between;
+margin-top: -10px;
+}
+.cards .card .card-body{
+  margin-top: -10px;
+}
+  /* fin de tout les cards */
+/* fin section principale */ 
+/* pied de page */
+
+footer{
+  margin-top: 100px;
+  background-color: #ff7200;
+  color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer .social-media{
+  display: flex;
+}
+footer .social-media p{
+  margin-right: 15px;
+
+}
+.img1{
+height: 350px;
+
+}
+.img3{
+  height: 350px;
+  
+
+}
+.img4{
+ height: 350px;
+
+}
+.img5{
+  height: 350px;
+}
+.img6{
+  height: 350px;
+}
+.img{
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  cursor: pointer;
+}
+/* Fin du pied de page */
+
+
+@media ( max-width:1000px )
+
+{nav{
+ 
+  padding: 0px;
+  top: 0px;
+  background-color: #fff;
+  position: sticky;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  color: #fff
+
+    
+   
+    
+
+}
+nav .onglets p{
+  font-size: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+  padding-left: 00px;
+
+}
+nav .onglets input{
+margin: 0px 0px;
+padding: 0px;
+border-radius: 0px;
+border: none;
+cursor: pointer;
+background-color: #f2f2f2;
+}
+
+
+header{
+  margin-right: 20px;
+
+}
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  margin-left: 250px;
+}
+nav h1 {font-size: 20px;
+  color:#ff7200 ;
+  margin-left: -480px;
+
+
+}
+.cards .card img  {
+  width: 650px;
+  height: 600px;
+  margin-right: 120px;
+
+}
+h1{
+  margin-left: 100px;
+}
+h4.price{
+  margin-right: 120px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
